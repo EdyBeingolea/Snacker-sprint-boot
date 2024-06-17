@@ -1,0 +1,12 @@
+snacker_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-chicago-1.oraclecloud.com))(connect_data=(service_name=g65f8c09571c594_snacker_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+snacker_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-chicago-1.oraclecloud.com))(connect_data=(service_name=g65f8c09571c594_snacker_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+snacker_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-chicago-1.oraclecloud.com))(connect_data=(service_name=g65f8c09571c594_snacker_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+snacker_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-chicago-1.oraclecloud.com))(connect_data=(service_name=g65f8c09571c594_snacker_tp.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+snacker_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-chicago-1.oraclecloud.com))(connect_data=(service_name=g65f8c09571c594_snacker_tpurgent.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+
+
