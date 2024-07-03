@@ -21,6 +21,10 @@ public class Proveedor {
     private String celular;
     @Column(name = "email")
     private String email;
+    @Column(name = "type_document")
+    private String documento;
+    @Column(name = "number_document")
+    private String documentoN;
     @Column(name = "state")
     private String estado;
 }

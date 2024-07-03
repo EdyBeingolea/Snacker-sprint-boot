@@ -36,6 +36,8 @@ public class ProveedorService implements ImplProveedor {
             res.setDireccion(proveedor.getDireccion());
             res.setCelular(proveedor.getCelular());
             res.setEmail(proveedor.getEmail());
+            res.setDocumento(proveedor.getDocumento());
+            res.setDocumentoN(proveedor.getDocumentoN());
             return iuProveedor.save(res);
         }).orElseThrow(() -> new RuntimeException("Provedor no encontrado" + id));
     }

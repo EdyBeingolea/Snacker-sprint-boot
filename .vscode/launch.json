@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SnackerApplication<Snacker>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "pe.edu.vallegrande.Snacker.SnackerApplication",
+            "projectName": "Snacker",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
