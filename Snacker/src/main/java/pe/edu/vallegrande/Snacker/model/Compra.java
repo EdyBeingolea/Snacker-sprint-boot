@@ -1,5 +1,7 @@
 package pe.edu.vallegrande.Snacker.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -14,9 +16,9 @@ public class Compra {
 
     @Column(name = "fecha")
     private String fecha;
-
+    
     @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    @JoinColumn(name = "suppliers_id", referencedColumnName = "id", nullable = false)
+    @JoinColumn(name = "suppliers_id")
     private Proveedor proveedor;
 
     @Column(name = "total")

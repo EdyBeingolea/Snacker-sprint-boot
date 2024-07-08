@@ -1,4 +1,4 @@
-package pe.edu.vallegrande.Snacker.controller;
+package pe.edu.vallegrande.Snacker.rest;
 
 import java.util.List;
 

@@ -2,8 +2,9 @@ package pe.edu.vallegrande.Snacker.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pe.edu.vallegrande.Snacker.interfaces.IuProveedor;
+
 import pe.edu.vallegrande.Snacker.model.Proveedor;
+import pe.edu.vallegrande.Snacker.repository.IuProveedor;
 
 import java.util.List;
 import java.util.Optional;

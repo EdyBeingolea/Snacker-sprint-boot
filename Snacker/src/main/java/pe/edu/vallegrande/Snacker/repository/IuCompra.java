@@ -1,4 +1,4 @@
-package pe.edu.vallegrande.Snacker.interfaces;
+package pe.edu.vallegrande.Snacker.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

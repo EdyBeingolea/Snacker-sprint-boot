@@ -1,4 +1,4 @@
-package pe.edu.vallegrande.Snacker.controller;
+package pe.edu.vallegrande.Snacker.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

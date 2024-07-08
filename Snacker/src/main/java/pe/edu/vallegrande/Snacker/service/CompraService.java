@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import pe.edu.vallegrande.Snacker.interfaces.IuCompra;
-import pe.edu.vallegrande.Snacker.interfaces.IuProveedor;
 import pe.edu.vallegrande.Snacker.model.Compra;
+import pe.edu.vallegrande.Snacker.repository.IuCompra;
+import pe.edu.vallegrande.Snacker.repository.IuProveedor;
 
 @Service
 public class CompraService {
