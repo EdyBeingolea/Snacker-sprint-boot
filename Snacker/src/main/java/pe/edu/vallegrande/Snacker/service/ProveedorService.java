@@ -5,12 +5,13 @@ import org.springframework.stereotype.Service;
 
 import pe.edu.vallegrande.Snacker.model.Proveedor;
 import pe.edu.vallegrande.Snacker.repository.IuProveedor;
+import pe.edu.vallegrande.Snacker.service.serviceImpl.ProveedorImpl;
 
 import java.util.List;
 import java.util.Optional;
 
 @Service
-public class ProveedorService implements ImplProveedor {
+public class ProveedorService implements ProveedorImpl {
     @Autowired
     IuProveedor iuProveedor;
 

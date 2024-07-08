@@ -20,9 +20,9 @@ public class CompraController {
     @Autowired
     private CompraService compraService;
 
-    @GetMapping("/Compras")
+    @GetMapping("/Compra")
     public List<Compra> obtenerCompras() {
-        return compraService.obtenerCompras();
+        return compraService.getAllCompra();
     }
     
 }

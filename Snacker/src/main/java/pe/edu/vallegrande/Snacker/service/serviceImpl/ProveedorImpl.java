@@ -1,11 +1,12 @@
-package pe.edu.vallegrande.Snacker.service;
+package pe.edu.vallegrande.Snacker.service.serviceImpl;
 
 import pe.edu.vallegrande.Snacker.model.Proveedor;
 
 import java.util.List;
 import java.util.Optional;
 
-public interface ImplProveedor {
+public interface ProveedorImpl {
+    
     List<Proveedor> ListarTodo();
 
     Optional<Proveedor> listarID(Integer id);
