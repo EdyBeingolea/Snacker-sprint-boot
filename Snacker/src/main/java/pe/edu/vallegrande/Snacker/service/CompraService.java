@@ -9,18 +9,14 @@ import org.springframework.transaction.annotation.Transactional;
 
 import pe.edu.vallegrande.Snacker.model.Compra;
 import pe.edu.vallegrande.Snacker.repository.IuCompra;
-import pe.edu.vallegrande.Snacker.repository.IuProveedor;
 import pe.edu.vallegrande.Snacker.service.serviceImpl.CompraImpl;
 
 @Service
 public class CompraService implements CompraImpl{
 
-    @Autowired
-    private IuProveedor iuProveedor;
 
     @Autowired
     private IuCompra iuCompra;
-
 
     @Transactional(readOnly = true)
     @Override

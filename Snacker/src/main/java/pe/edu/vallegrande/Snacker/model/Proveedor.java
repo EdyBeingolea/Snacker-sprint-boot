@@ -1,5 +1,8 @@
 package pe.edu.vallegrande.Snacker.model;
 import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -36,5 +39,7 @@ public class Proveedor {
     @Column(name = "state")
     private String estado;
 
-    
+    @OneToMany(mappedBy = "proveedor")
+    @JsonIgnore
+    private List<Compra> compra;
 }
